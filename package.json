@@ -1,0 +1,13 @@
+{
+  "name": "jenkins-build-meta",
+  "version": "0.0.1",
+  "description": "Generate metadata.json from jenkins env variables",
+  "main": "index.js",
+  "dependencies": {
+    "git-url-parse": "6.0.5"
+  },
+  "devDependencies": {},
+  "bin": "./index.js",
+  "author": "Aleksej Kamynin <zendzirou@gmail.com> (http://bubujka.org/)",
+  "license": "MIT"
+}

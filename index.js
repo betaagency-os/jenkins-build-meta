@@ -9,7 +9,8 @@ var data = {
   branch: branch,
   branch_url: bburl+'/branch/'+branch,
   branch_commits_url: bburl+'/commits/branch/'+branch,
-  commit_url: bburl+'/commits/'+process.env.GIT_COMMIT
+  commit_url: bburl+'/commits/'+process.env.GIT_COMMIT,
+  date: new Date
 };
 
 console.log(JSON.stringify(data, null, 2));
